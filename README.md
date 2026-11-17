@@ -1,12 +1,12 @@
-# 📊 Retail Business Performance Analysis & Dashboard
+# Retail Business Performance Analysis & Dashboard
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on analysing retail business data to understand sales performance, product performance, customer behaviour, employee performance, store performance and regional business results.
 
 The project uses **Python (Pandas), Google Colab, Microsoft Excel and Power BI** to perform data analysis, generate business insights and develop interactive dashboards.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Analyse overall retail sales and revenue.
 - Identify top-performing products and employees.
@@ -15,9 +15,9 @@ The project uses **Python (Pandas), Google Colab, Microsoft Excel and Power BI**
 - Analyse sales channels and product categories.
 - Evaluate sales target achievement.
 - Identify return rates and common return reasons.
-- Provide useful business insights and recommendations.
+- Generate useful business insights and recommendations.
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 - Python
 - Pandas
@@ -28,7 +28,7 @@ The project uses **Python (Pandas), Google Colab, Microsoft Excel and Power BI**
 - Microsoft Power BI
 - GitHub
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Retail-Business-Performance-Dashboard/
@@ -59,7 +59,7 @@ Retail-Business-Performance-Dashboard/
 └── README.md
 ```
 
-## 📈 Project Implementation
+## Project Implementation
 
 ### 1. Python & Google Colab – Data Analysis
 
@@ -105,7 +105,7 @@ Developed a two-page interactive dashboard.
 - Employee Performance
 - Maximum Return Rate
 
-## 📊 Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)
 
 - Total Revenue
 - Sales Target
@@ -114,33 +114,33 @@ Developed a two-page interactive dashboard.
 - Total Orders
 - Highest Return Rate
 
-## 💡 Business Insights
+## Business Insights
 
 The analysis helps identify:
 
 - The highest-performing sales region.
-- The most profitable and popular products.
+- The most popular products.
 - The best-performing employees.
 - The highest-revenue customer segment.
 - The strongest sales channel.
 - Regions with higher product return rates.
 - Regional sales target achievement.
 
-## 📷 Dashboard Screenshots
+## Dashboard Screenshots
 
 ### Page 1 – Retail Business Performance
 
-Add your first dashboard screenshot here.
+![Retail Business Performance Dashboard](Screenshots/Dashboard1.png)
 
 ### Page 2 – Business Analysis
 
-Add your second dashboard screenshot here.
+![Business Analysis Dashboard](Screenshots/Dashboard2.png)
 
-## 🚀 Project Outcome
+## Project Outcome
 
 This project demonstrates how retail business data can be transformed into meaningful insights using Python, Excel and Power BI. It helps businesses understand performance, identify opportunities and make better data-driven decisions.
 
-## 👩‍💻 Author
+## Author
 
 **Ananya N Puthran**
 
