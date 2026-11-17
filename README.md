@@ -4,7 +4,7 @@
 
 This project focuses on analysing retail business data to understand sales performance, product performance, customer behaviour, employee performance, store performance and regional business results.
 
-The project uses **Python (Pandas), Google Colab, Microsoft Excel and Power BI** to perform data analysis, generate business insights and develop interactive dashboards.
+The project uses Python (Pandas), Google Colab, Microsoft Excel and Power BI to perform data analysis, generate business insights and develop interactive dashboards.
 
 ## Project Objectives
 
@@ -42,9 +42,9 @@ Retail-Business-Performance-Dashboard/
 ├── Power-BI/
 │   └── Retail_Business_Performance_Dashboard.pbix
 │
-├── Screenshots/
-│   ├── Dashboard_Page1.png
-│   └── Dashboard_Page2.png
+├── screenshot/
+│   ├── Dashboard1.png
+│   └── Dashboard2.png
 │
 ├── Dataset/
 │   ├── customers.csv
@@ -66,6 +66,7 @@ Retail-Business-Performance-Dashboard/
 Used Pandas and NumPy to clean, process, merge and analyse retail datasets.
 
 Analysis includes:
+
 - Regional sales performance
 - Product sales analysis
 - Employee performance
@@ -84,13 +85,14 @@ Used Excel functions and analytical tools to organise and analyse business data.
 - Sales calculations
 - Sorting and filtering
 - Business performance analysis
-- Summary tables and insights
+- Summary tables and business insights
 
 ### 3. Power BI – Interactive Dashboard
 
-Developed a two-page interactive dashboard.
+Developed a two-page interactive dashboard to present important business performance metrics and insights.
 
-**Page 1 – Retail Business Performance**
+#### Page 1 – Retail Business Performance
+
 - Six KPI cards
 - Regional Sales Performance
 - Sales by Channel
@@ -98,7 +100,8 @@ Developed a two-page interactive dashboard.
 - Category Slicer
 - Region Slicer
 
-**Page 2 – Business Analysis**
+#### Page 2 – Business Analysis
+
 - Sales Channel Slicer
 - Regional Target Achievement
 - Revenue by Customer Segment
@@ -130,11 +133,11 @@ The analysis helps identify:
 
 ### Page 1 – Retail Business Performance
 
-![Retail Business Performance Dashboard](Screenshots/Dashboard1.png)
+![Retail Business Performance Dashboard](screenshot/Dashboard1.png)
 
 ### Page 2 – Business Analysis
 
-![Business Analysis Dashboard](Screenshots/Dashboard2.png)
+![Business Analysis Dashboard](screenshot/Dashboard2.png)
 
 ## Project Outcome
 
