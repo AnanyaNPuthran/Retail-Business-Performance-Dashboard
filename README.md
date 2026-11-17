@@ -133,11 +133,11 @@ The analysis helps identify:
 
 ### Page 1 – Retail Business Performance
 
-![Retail Business Performance Dashboard](screenshot/Dashboard1.png)
+![Business Analysis Dashboard](screenshot2/dashboard1.png.png)
 
 ### Page 2 – Business Analysis
 
-![Business Analysis Dashboard](screenshot/Dashboard2.png)
+![Business Analysis Dashboard](screenshot2/dashboard2.png.png)
 
 ## Project Outcome
 
