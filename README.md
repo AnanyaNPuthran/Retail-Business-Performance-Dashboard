@@ -2,9 +2,13 @@
 
 ## Project Overview
 
-This project focuses on analysing retail business data to understand sales performance, product performance, customer behaviour, employee performance, store performance and regional business results.
+This project focuses on analysing retail business data to understand sales performance, product performance, customer behaviour, employee contribution, store performance and overall business results.
 
-The project uses Python (Pandas), Google Colab, Microsoft Excel and Power BI to perform data analysis, generate business insights and develop interactive dashboards.
+The project uses **Python (Pandas), Google Colab, Microsoft Excel and Power BI** to clean and analyse retail datasets, answer business questions, generate insights and create interactive dashboards.
+
+It includes two Python analysis notebooks:
+- **Retail Business Analysis** – explores overall retail sales and business performance.
+- **Retail Sales Advanced Analysis** – focuses on deeper business questions to support decision-making.
 
 ## Project Objectives
 
@@ -14,8 +18,9 @@ The project uses Python (Pandas), Google Colab, Microsoft Excel and Power BI to 
 - Understand customer segments and purchasing behaviour.
 - Analyse sales channels and product categories.
 - Evaluate sales target achievement.
-- Identify return rates and common return reasons.
-- Generate useful business insights and recommendations.
+- Examine product returns and common return reasons.
+- Identify business improvement opportunities.
+- Generate meaningful insights and recommendations.
 
 ## Tools & Technologies Used
 
@@ -33,39 +38,31 @@ The project uses Python (Pandas), Google Colab, Microsoft Excel and Power BI to 
 ```text
 Retail-Business-Performance-Dashboard/
 │
-├── Google-Colab/
-│   └── Retail_Business_Analysis.ipynb
+├── README.md
+├── Retail_Business_Analysis.ipynb
+├── Retail_Sales_Advanced_Analysis.ipynb
+├── Retail-Business-Performance-excel.xlsx
 │
-├── Excel/
-│   └── Retail_Business_Analysis.xlsx
+├── customers.csv
+├── employees.csv
+├── order_items.csv
+├── orders.csv
+├── products.csv
+├── returns.csv
+├── stores.csv
+├── targets.csv
 │
-├── Power-BI/
-│   └── Retail_Business_Performance_Dashboard.pbix
-│
-├── screenshot/
-│   ├── Dashboard1.png
-│   └── Dashboard2.png
-│
-├── Dataset/
-│   ├── customers.csv
-│   ├── employees.csv
-│   ├── order_items.csv
-│   ├── orders.csv
-│   ├── products.csv
-│   ├── returns.csv
-│   ├── stores.csv
-│   └── targets.csv
-│
-└── README.md
+├── dashboard1.png.png
+└── dashboard2.png.png
 ```
 
 ## Project Implementation
 
-### 1. Python & Google Colab – Data Analysis
+### 1. Python & Google Colab – Retail Business Analysis
 
-Used Pandas and NumPy to clean, process, merge and analyse retail datasets.
+Used Python libraries such as Pandas and NumPy to clean, process, combine and analyse retail datasets.
 
-Analysis includes:
+The analysis includes:
 
 - Regional sales performance
 - Product sales analysis
@@ -77,7 +74,26 @@ Analysis includes:
 - Return analysis
 - Regional target achievement
 
-### 2. Microsoft Excel – Data Analysis
+### 2. Python & Google Colab – Advanced Business Analysis
+
+Created a separate notebook to explore additional business-focused questions and identify opportunities for improving retail performance.
+
+The advanced analysis focuses on:
+
+1. Identifying stores performing below average sales.
+2. Finding high-sales products with low profit margins.
+3. Identifying customers contributing the most revenue.
+4. Analysing the impact of product returns on monthly sales.
+5. Evaluating employee sales contributions.
+6. Comparing return rates across stores.
+7. Understanding the relationship between discounts and profitability.
+8. Identifying low-sales products that may need promotional activities.
+9. Comparing average order value across customer segments.
+10. Analysing store and product category profitability.
+
+These questions help move beyond basic sales reporting and provide insights that can support business decisions.
+
+### 3. Microsoft Excel – Data Analysis
 
 Used Excel functions and analytical tools to organise and analyse business data.
 
@@ -87,7 +103,7 @@ Used Excel functions and analytical tools to organise and analyse business data.
 - Business performance analysis
 - Summary tables and business insights
 
-### 3. Power BI – Interactive Dashboard
+### 4. Microsoft Power BI – Interactive Dashboard
 
 Developed a two-page interactive dashboard to present important business performance metrics and insights.
 
@@ -119,29 +135,34 @@ Developed a two-page interactive dashboard to present important business perform
 
 ## Business Insights
 
-The analysis helps identify:
+The project helps identify:
 
 - The highest-performing sales region.
 - The most popular products.
 - The best-performing employees.
 - The highest-revenue customer segment.
 - The strongest sales channel.
-- Regions with higher product return rates.
+- Stores with higher product return rates.
+- Products with low profitability.
+- Customers contributing the most revenue.
 - Regional sales target achievement.
+- Opportunities to improve sales and profitability.
 
 ## Dashboard Screenshots
 
-## Page 1 – Retail Business Performance
+### Page 1 – Retail Business Performance
 
 ![Retail Business Performance Dashboard](dashboard1.png.png)
 
-## Page 2 – Business Analysis
+### Page 2 – Business Analysis
 
 ![Business Analysis Dashboard](dashboard2.png.png)
 
 ## Project Outcome
 
-This project demonstrates how retail business data can be transformed into meaningful insights using Python, Excel and Power BI. It helps businesses understand performance, identify opportunities and make better data-driven decisions.
+This project demonstrates how retail business data can be transformed into meaningful insights using Python, Excel and Power BI.
+
+By combining basic and advanced data analysis with interactive dashboards, the project helps understand business performance, identify improvement opportunities and support data-driven decision-making.
 
 ## Author
 
