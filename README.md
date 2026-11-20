@@ -53,7 +53,19 @@ Retail-Business-Performance-Dashboard/
 ├── targets.csv
 │
 ├── dashboard1.png.png
-└── dashboard2.png.png
+├── dashboard2.png.png
+│
+└── Screenshot/
+    ├── 10 lowest selling products.png
+    ├── 10 order value by customer segment.png
+    ├── Discount level vs Profit margin.png
+    ├── Month sales and return.png
+    ├── Product sales vs Profit margin.png
+    ├── Return rate by store.png
+    ├── Profit by sore and Product category.png
+    ├── Store sale compared with average.png
+    ├── Top 10 developers by revenue.png
+    └── Top 10 employees by sale.png
 ```
 
 ## Project Implementation
@@ -133,6 +145,60 @@ Developed a two-page interactive dashboard to present important business perform
 - Total Orders
 - Highest Return Rate
 
+## Data Analysis Visualizations
+
+Created 10 visualizations using Python and Matplotlib to explore different areas of retail business performance.
+
+### 1. Top 10 Lowest-Selling Products
+
+![Top 10 Lowest-Selling Products](Screenshot/10%20lowest%20selling%20products.png)
+
+### 2. Order Value by Customer Segment
+
+![Order Value by Customer Segment](Screenshot/10%20order%20value%20by%20customer%20segment.png)
+
+### 3. Discount Level vs Profit Margin
+
+![Discount Level vs Profit Margin](Screenshot/Discount%20level%20vs%20Profit%20margin.png)
+
+### 4. Monthly Sales and Returns
+
+![Monthly Sales and Returns](Screenshot/Month%20sales%20and%20return.png)
+
+### 5. Product Sales vs Profit Margin
+
+![Product Sales vs Profit Margin](Screenshot/Product%20sales%20vs%20Profit%20margin.png)
+
+### 6. Return Rate by Store
+
+![Return Rate by Store](Screenshot/Return%20rate%20by%20store.png)
+
+### 7. Profit by Store and Product Category
+
+![Profit by Store and Product Category](Screenshot/Profit%20by%20sore%20and%20Product%20category.png)
+
+### 8. Store Sales Compared with Average
+
+![Store Sales Compared with Average](Screenshot/Store%20sale%20compared%20with%20average.png)
+
+### 9. Top 10 Developers by Revenue
+
+![Top 10 Developers by Revenue](Screenshot/Top%2010%20developers%20by%20revenue.png)
+
+### 10. Top 10 Employees by Sales
+
+![Top 10 Employees by Sales](Screenshot/Top%2010%20employees%20by%20sale.png)
+
+## Dashboard Screenshots
+
+### Page 1 – Retail Business Performance
+
+![Retail Business Performance Dashboard](dashboard1.png.png)
+
+### Page 2 – Business Analysis
+
+![Business Analysis Dashboard](dashboard2.png.png)
+
 ## Business Insights
 
 The project helps identify:
@@ -148,21 +214,11 @@ The project helps identify:
 - Regional sales target achievement.
 - Opportunities to improve sales and profitability.
 
-## Dashboard Screenshots
-
-### Page 1 – Retail Business Performance
-
-![Retail Business Performance Dashboard](dashboard1.png.png)
-
-### Page 2 – Business Analysis
-
-![Business Analysis Dashboard](dashboard2.png.png)
-
 ## Project Outcome
 
 This project demonstrates how retail business data can be transformed into meaningful insights using Python, Excel and Power BI.
 
-By combining basic and advanced data analysis with interactive dashboards, the project helps understand business performance, identify improvement opportunities and support data-driven decision-making.
+By combining basic and advanced data analysis with interactive dashboards and visualizations, the project helps understand business performance, identify improvement opportunities and support data-driven decision-making.
 
 ## Author
 
