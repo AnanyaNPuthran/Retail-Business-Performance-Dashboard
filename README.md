@@ -149,7 +149,7 @@ The advanced analysis covers the following business questions:
 
 ### 8. Profit by Store and Product Category
 
-![Profit by Store and Product Category](Profit%20by%20sore%20and%20Product%20category.png)
+![Profit by Store and Product Category](<Profit by sore and Product categoty.png>)
 
 ### 9. 10 Lowest Selling Products
 
