@@ -1,44 +1,51 @@
 # Retail Business Performance Analysis & Dashboard
 
-## Project Overview
+## About the Project
 
-This project focuses on analysing retail business data to understand sales performance, product performance, customer behaviour, employee contribution, store performance and overall business results.
+The **Retail Business Performance Analysis & Dashboard** project focuses on analyzing retail business data to understand sales performance, profitability, customer behavior, product performance, and store operations.
 
-The project uses **Python (Pandas), Google Colab, Microsoft Excel and Power BI** to clean and analyse retail datasets, answer business questions, generate insights and create interactive dashboards.
-
-It includes two Python analysis notebooks:
-- **Retail Business Analysis** – explores overall retail sales and business performance.
-- **Retail Sales Advanced Analysis** – focuses on deeper business questions to support decision-making.
+The project uses Python, Pandas, Excel, and Power BI to clean, process, analyze, and visualize retail data. It includes basic and advanced data analysis along with interactive dashboard visualizations to support better business decisions.
 
 ## Project Objectives
 
-- Analyse overall retail sales and revenue.
-- Identify top-performing products and employees.
-- Compare sales performance across regions and stores.
-- Understand customer segments and purchasing behaviour.
-- Analyse sales channels and product categories.
-- Evaluate sales target achievement.
-- Examine product returns and common return reasons.
-- Identify business improvement opportunities.
-- Generate meaningful insights and recommendations.
+- Analyze overall retail sales and profit performance.
+- Identify top-performing and low-performing products.
+- Compare sales performance across different stores.
+- Understand customer purchasing behavior.
+- Analyze product returns and their impact on sales.
+- Evaluate employee sales contributions.
+- Study the relationship between discounts and profitability.
+- Present important business insights through dashboards.
 
-## Tools & Technologies Used
+## Tools & Technologies
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Google Colab
-- Microsoft Excel
-- Microsoft Power BI
-- GitHub
+- **Python** – Data analysis and processing
+- **Pandas** – Data cleaning, manipulation, and analysis
+- **NumPy** – Numerical operations
+- **Matplotlib & Seaborn** – Data visualization
+- **Google Colab** – Python notebook execution
+- **Microsoft Excel** – Data analysis and reporting
+- **Power BI** – Interactive dashboard creation
+- **GitHub** – Project storage and documentation
+
+## Dataset Files
+
+The project uses the following datasets:
+
+- `customers.csv`
+- `employees.csv`
+- `order_items.csv`
+- `orders.csv`
+- `products.csv`
+- `returns.csv`
+- `stores.csv`
+- `targets.csv`
 
 ## Project Structure
 
 ```text
 Retail-Business-Performance-Dashboard/
 │
-├── README.md
 ├── Retail_Business_Analysis.ipynb
 ├── Retail_Sales_Advanced_Analysis.ipynb
 ├── Retail-Business-Performance-excel.xlsx
@@ -52,9 +59,6 @@ Retail-Business-Performance-Dashboard/
 ├── stores.csv
 ├── targets.csv
 │
-├── dashboard1.png.png
-├── dashboard2.png.png
-│
 ├── 10 lowest selling products.png
 ├── 10 order value by customer segment.png
 ├── Discount level vs Profit margin.png
@@ -64,163 +68,125 @@ Retail-Business-Performance-Dashboard/
 ├── Return rate by store.png
 ├── Store sale compared with average.png
 ├── Top 10 developers by revenue.png
-└── Top 10 employees by sale.png
+├── Top 10 employees by sale.png
+│
+├── dashboard1.png.png
+├── dashboard2.png.png
+│
+└── README.md
 ```
 
 ## Project Implementation
 
-### 1. Python & Google Colab – Retail Business Analysis
+### 1. Python – Basic Data Analysis
 
-Used Python libraries such as Pandas and NumPy to clean, process, combine and analyse retail datasets.
+- Data loading and inspection
+- Data cleaning and preprocessing
+- Handling missing values and duplicates
+- Sales and profit calculations
+- Data grouping and aggregation
+- Exploratory data analysis
 
-The analysis includes:
+### 2. Python – Advanced Data Analysis
 
-- Regional sales performance
-- Product sales analysis
-- Employee performance
-- Customer spending analysis
-- Customer segmentation
-- Store performance
-- Sales channel analysis
-- Return analysis
-- Regional target achievement
+The advanced analysis covers the following business questions:
 
-### 2. Python & Google Colab – Advanced Business Analysis
+1. Identify stores performing below average sales.
+2. Find products with high sales but low profit margins.
+3. Identify customers contributing the most revenue.
+4. Analyze the monthly impact of returns on sales.
+5. Evaluate employee sales contributions.
+6. Calculate return rates by store.
+7. Analyze the relationship between discount levels and profitability.
+8. Identify low-selling products for promotional activities.
+9. Calculate average order value by customer segment.
+10. Analyze profit by store and product category.
 
-Created a separate notebook to explore additional business-focused questions and identify opportunities for improving retail performance.
+### 3. Microsoft Excel
 
-The advanced analysis focuses on:
+- Data analysis using Excel
+- Pivot tables and summaries
+- Sales and profit calculations
+- Data visualization
 
-1. Identifying stores performing below average sales.
-2. Finding high-sales products with low profit margins.
-3. Identifying customers contributing the most revenue.
-4. Analysing the impact of product returns on monthly sales.
-5. Evaluating employee sales contributions.
-6. Comparing return rates across stores.
-7. Understanding the relationship between discounts and profitability.
-8. Identifying low-sales products that may need promotional activities.
-9. Comparing average order value across customer segments.
-10. Analysing store and product category profitability.
+### 4. Power BI Dashboard
 
-These questions help move beyond basic sales reporting and provide insights that can support business decisions.
-
-### 3. Microsoft Excel – Data Analysis
-
-Used Excel functions and analytical tools to organise and analyse business data.
-
-- Data cleaning and formatting
-- Sales calculations
-- Sorting and filtering
+- Interactive sales overview
 - Business performance analysis
-- Summary tables and business insights
-
-### 4. Microsoft Power BI – Interactive Dashboard
-
-Developed a two-page interactive dashboard to present important business performance metrics and insights.
-
-#### Page 1 – Retail Business Performance
-
-- Six KPI cards
-- Regional Sales Performance
-- Sales by Channel
-- Top 10 Products by Revenue
-- Category Slicer
-- Region Slicer
-
-#### Page 2 – Business Analysis
-
-- Sales Channel Slicer
-- Regional Target Achievement
-- Revenue by Customer Segment
-- Employee Performance
-- Maximum Return Rate
-
-## Key Performance Indicators (KPIs)
-
-- Total Revenue
-- Sales Target
-- Target Achievement
-- Total Profit
-- Total Orders
-- Highest Return Rate
+- Sales and profit KPIs
+- Store and product comparisons
+- Business insights through visual reports
 
 ## Data Analysis Visualizations
 
-Created 10 visualizations using Python, Pandas and Matplotlib to analyse different areas of retail business performance.
+### 1. Top 10 Developers by Revenue
 
-### 1. Top 10 Lowest-Selling Products
+![Top 10 Developers by Revenue](Top%2010%20developers%20by%20revenue.png)
 
-![Top 10 Lowest-Selling Products](10%20lowest%20selling%20products.png)
+### 2. Top 10 Employees by Sale
 
-### 2. Order Value by Customer Segment
+![Top 10 Employees by Sale](Top%2010%20employees%20by%20sale.png)
 
-![Order Value by Customer Segment](10%20order%20value%20by%20customer%20segment.png)
+### 3. Store Sales Compared with Average
 
-### 3. Discount Level vs Profit Margin
+![Store Sales Compared with Average](Store%20sale%20compared%20with%20average.png)
 
-![Discount Level vs Profit Margin](Discount%20level%20vs%20Profit%20margin.png)
-
-### 4. Monthly Sales and Returns
-
-![Monthly Sales and Returns](Month%20sales%20and%20return.png)
-
-### 5. Product Sales vs Profit Margin
+### 4. Product Sales vs Profit Margin
 
 ![Product Sales vs Profit Margin](Product%20sales%20vs%20Profit%20margin.png)
+
+### 5. Monthly Sales and Returns
+
+![Monthly Sales and Returns](Month%20sales%20and%20return.png)
 
 ### 6. Return Rate by Store
 
 ![Return Rate by Store](Return%20rate%20by%20store.png)
 
-### 7. Profit by Store and Product Category
+### 7. Discount Level vs Profit Margin
+
+![Discount Level vs Profit Margin](Discount%20level%20vs%20Profit%20margin.png)
+
+### 8. Profit by Store and Product Category
 
 ![Profit by Store and Product Category](Profit%20by%20sore%20and%20Product%20category.png)
 
-### 8. Store Sales Compared with Average
+### 9. 10 Lowest Selling Products
 
-![Store Sales Compared with Average](Store%20sale%20compared%20with%20average.png)
+![10 Lowest Selling Products](10%20lowest%20selling%20products.png)
 
-### 9. Top 10 Developers by Revenue
+### 10. Order Value by Customer Segment
 
-![Top 10 Developers by Revenue](Top%2010%20developers%20by%20revenue.png)
+![Order Value by Customer Segment](10%20order%20value%20by%20customer%20segment.png)
 
-### 10. Top 10 Employees by Sales
+## Power BI Dashboard Screenshots
 
-![Top 10 Employees by Sales](Top%2010%20employees%20by%20sale.png)
+### Dashboard 1 – Sales Overview
 
-## Dashboard Screenshots
+![Sales Overview Dashboard](dashboard1.png.png)
 
-### Page 1 – Retail Business Performance
-
-![Retail Business Performance Dashboard](dashboard1.png.png)
-
-### Page 2 – Business Analysis
+### Dashboard 2 – Business Analysis
 
 ![Business Analysis Dashboard](dashboard2.png.png)
 
-## Business Insights
+## Key Business Insights
 
-The project helps identify:
-
-- The highest-performing sales region.
-- The most popular products.
-- The best-performing employees.
-- The highest-revenue customer segment.
-- The strongest sales channel.
-- Stores with higher product return rates.
-- Products with low profitability.
-- Customers contributing the most revenue.
-- Regional sales target achievement.
-- Opportunities to improve sales and profitability.
+- Identifying stores with below-average sales helps highlight areas for improvement.
+- Product sales and profit margin analysis helps evaluate product performance.
+- Customer revenue analysis identifies valuable customer segments.
+- Return rate analysis helps understand product and store-level issues.
+- Discount analysis helps evaluate the effect of discounts on profitability.
+- Employee sales analysis helps measure individual sales contributions.
 
 ## Project Outcome
 
-This project demonstrates how retail business data can be transformed into meaningful insights using Python, Excel and Power BI.
+This project provided practical experience in data cleaning, data manipulation, exploratory data analysis, business analysis, and dashboard development.
 
-By combining basic and advanced data analysis with interactive dashboards and visualizations, the project helps understand business performance, identify improvement opportunities and support data-driven decision-making.
+By combining Python, Excel, and Power BI, the project transforms raw retail data into meaningful business insights that can support data-driven decision-making.
 
 ## Author
 
 **Ananya N Puthran**
 
 BCA Student | Aspiring Data Analyst
+
