@@ -123,39 +123,35 @@ The advanced analysis covers the following business questions:
 
 ![Top 10 Developers by Revenue](Top%2010%20developers%20by%20revenue.png)
 
-### 2. Top 10 Employees by Sale
-
-![Top 10 Employees by Sale](Top%2010%20employees%20by%20sale.png)
-
-### 3. Store Sales Compared with Average
+### 2. Store Sales Compared with Average
 
 ![Store Sales Compared with Average](Store%20sale%20compared%20with%20average.png)
 
-### 4. Product Sales vs Profit Margin
+### 3. Product Sales vs Profit Margin
 
 ![Product Sales vs Profit Margin](Product%20sales%20vs%20Profit%20margin.png)
 
-### 5. Monthly Sales and Returns
+### 4. Monthly Sales and Returns
 
 ![Monthly Sales and Returns](Month%20sales%20and%20return.png)
 
-### 6. Return Rate by Store
+### 5. Return Rate by Store
 
 ![Return Rate by Store](Return%20rate%20by%20store.png)
 
-### 7. Discount Level vs Profit Margin
+### 6. Discount Level vs Profit Margin
 
 ![Discount Level vs Profit Margin](Discount%20level%20vs%20Profit%20margin.png)
 
-### 8. Profit by Store and Product Category
+### 7. Profit by Store and Product Category
 
 ![Profit by Store and Product Category](<Profit by sore and Product categoty.png>)
 
-### 9. 10 Lowest Selling Products
+### 8. 10 Lowest Selling Products
 
 ![10 Lowest Selling Products](10%20lowest%20selling%20products.png)
 
-### 10. Order Value by Customer Segment
+### 9. Order Value by Customer Segment
 
 ![Order Value by Customer Segment](10%20order%20value%20by%20customer%20segment.png)
 
